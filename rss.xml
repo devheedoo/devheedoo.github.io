@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Heedo's Dev Blog]]></title><description><![CDATA[Heedo's Dev Blog]]></description><link>https://devheedoo.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 10 Jun 2019 20:09:20 GMT</lastBuildDate><item><title><![CDATA[Save HTML to PDF]]></title><description><![CDATA[A프로젝트에서 HTML 화면을 PDF로 출력해야하는 경우가 생겼다. iText 라이브러리의 경우 html을 pdf로 변환해주지만 CSS 적용에 한계가 있었다. 그래서 두 가지 라이브러리를 이용해 현재 화면을 이미지로 추출한 후 PDF로 저장하는 방법을 골랐다]]></description><link>https://devheedoo.github.io/posts/save-html-to-pdf/</link><guid isPermaLink="false">https://devheedoo.github.io/posts/save-html-to-pdf/</guid><pubDate>Mon, 10 Jun 2019 20:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Heedo's Dev Blog]]></title><description><![CDATA[Heedo's Dev Blog]]></description><link>https://devheedoo.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 10 Jun 2019 20:12:22 GMT</lastBuildDate><item><title><![CDATA[Save HTML to PDF]]></title><description><![CDATA[A프로젝트에서 HTML 화면을 PDF로 출력해야하는 경우가 생겼다. iText 라이브러리의 경우 html을 pdf로 변환해주지만 CSS 적용에 한계가 있었다. 그래서 두 가지 라이브러리를 이용해 현재 화면을 이미지로 추출한 후 PDF로 저장하는 방법을 골랐다]]></description><link>https://devheedoo.github.io/posts/save-html-to-pdf/</link><guid isPermaLink="false">https://devheedoo.github.io/posts/save-html-to-pdf/</guid><pubDate>Mon, 10 Jun 2019 20:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#html2canvas&quot;&gt;HTML2CANVAS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#jspdf&quot;&gt;jsPDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#html2canvas-+-jspdf&quot;&gt;HTML2CANVAS + jsPDF&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#tip&quot;&gt;Tip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#html2canvas-+-jspdf&quot;&gt;HTML2CANVAS + jsPDF&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;프로젝트에서 HTML 화면을 PDF로 출력해야하는 경우가 생겼다.&lt;/p&gt;
 &lt;p&gt;iText 라이브러리의 경우 html을 pdf로 변환해주지만 CSS 적용에 한계가 있었다.&lt;/p&gt;
